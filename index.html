@@ -12,7 +12,124 @@
     <meta name="viewport" content="width=device-width">
   </head>
   <body>
-    <h1>HI</h1>
+    <!-- <div class="subjects">Mathematics</div>
+    <div class="subjects">Pharmacognosy</div>
+    <div class="subjects">Pharmaceutics</div>
+    <div class="subjects">Analysis</div>
+    <div class="subjects">English</div>
+    <div class="subjects">Chemistry</div>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">    <button type="button" class="btn btn-secondary">Mathematics</button>
+        </div>
+        <div class="col">    <button type="button" class="btn btn-secondary">Pharmacognosy</button>
+        </div>
+        <div class="col">    <button type="button" class="btn btn-secondary">Pharmaceutics</button>
+        </div>
+        <div class="col">    <button type="button" class="btn btn-secondary">Analysis</button>
+        </div>
+        <div class="col">    <button type="button" class="btn btn-secondary">English</button>
+        </div>
+        <div class="col">    <button type="button" class="btn btn-secondary">Chemistry</button>
+        </div>
+
+      </div>
+    </div> -->
+
+     <button type="button" onclick="myFunM()" class="btn btn-secondary">Mathematics
+
+      <button type="button" id="M_date" class="btn btn-secondary"  onclick="myFunctionM()">25/04/2022</button>
+      <div id="M_2022_04_25">
+        <img class="daily-img" src="maths\IMG_20220425_224824.jpg" alt="">
+        <img class="daily-img" src="maths\IMG_20220425_224833.jpg" alt="">
+        <img class="daily-img" src="maths\IMG_20220425_224837.jpg" alt="">
+        <img class="daily-img" src="maths\IMG_20220425_224844.jpg" alt="">
+        <img class="daily-img" src="maths\IMG_20220425_224848.jpg" alt="">
+      </div>
+     </button>
+
+     <button type="button" onclick="myFunC()" class="btn btn-secondary">Chemistry
+
+      <button type="button" id="date" class="btn btn-secondary"  onclick="myFunctionC()">25/04/2022</button>
+      <div id="C_2022_04_25">
+        <img class="daily-img" src="chemistry\IMG_20220425_224916.jpg" alt="">
+        <img class="daily-img" src="chemistry\IMG_20220425_224923.jpg" alt="">
+        <img class="daily-img" src="chemistry\IMG_20220425_224928.jpg" alt="">
+        <img class="daily-img" src="chemistry\IMG_20220425_224935.jpg" alt="">
+      </div>
+     </button>
+
+   
+    
+    <script>
+    function myFunctionM() {
+      var x = document.getElementById("M_2022_04_25");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    function myFunM() {
+      var x = document.getElementById("M_date");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+
+<script>
+  function myFunctionC() {
+    var x = document.getElementById("C_2022_04_25");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function myFunC() {
+    var x = document.getElementById("C_date");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
